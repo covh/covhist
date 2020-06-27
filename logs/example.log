@@ -1,0 +1,42 @@
+/home/andreas/Documents/LiClipseWorkspace/covh/covhist/src
+Downloading this data:
+ https://docs.google.com/spreadsheets/d/1rn_nPJodxAwahIzqfRtEr9HHoqjvmh_7bj6-LUXDRSY/gviz/tq?tqx=out:csv&sheet=ThePast&range=A3:E12
+Got the table of version history copy sheets, processing them now:
+
+ 2020-03-18 21:50:00 A4:T405 1jOjcJO4ffIMvksZkQFupikbT-M7ppQgtjFHiW037wHc Zeit (Datum, Uhrzeit) (Man kann =JETZT() oder =NOW() benutzen ... 
+Downloading this data:
+ https://docs.google.com/spreadsheets/d/1jOjcJO4ffIMvksZkQFupikbT-M7ppQgtjFHiW037wHc/gviz/tq?tqx=out:csv&sheet=Haupt&range=A4:T405
+0 <class 'str'> 18/03/2020 20:00 --> zeitformat = '%d/%m/%Y %H:%M'
+Newest entry was: 20200418_140000 BUT that cannot be (probably typo, or caused by '=NOW()'), as the file version was from '20200318_215000', so using that instead:
+For CSV using filename: ../data/GermanyKreisebene_Risklayer_haupt-20200318_215000.csv
+
+2020-03-19 22:30:00 A5:Z406 1N_HOPhwQ1rcbyXOiiVhJmoSK8o0OYCaxNkJ47a-4HEc Zeit ... Downloading this data:
+ https://docs.google.com/spreadsheets/d/1N_HOPhwQ1rcbyXOiiVhJmoSK8o0OYCaxNkJ47a-4HEc/gviz/tq?tqx=out:csv&sheet=Haupt&range=A5:Z406
+ERROR: <class 'pandas.errors.ParserError'> Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+Probably incorrect access rights. Press "Share", and switch to "Anyone on the Internet with this link can view",
+in this sheet: https://docs.google.com/spreadsheets/d/1N_HOPhwQ1rcbyXOiiVhJmoSK8o0OYCaxNkJ47a-4HEc
+
+2020-03-20 23:37:00 A5:AH406 16SeukqywiIXfFCys4RP08zQw8CslOFOuqLEWdAkCnXw Zeit ... Downloading this data:
+ https://docs.google.com/spreadsheets/d/16SeukqywiIXfFCys4RP08zQw8CslOFOuqLEWdAkCnXw/gviz/tq?tqx=out:csv&sheet=Haupt&range=A5:AH406
+0 <class 'str'> 19/03/2020 23:42:00 --> zeitformat = '%d/%m/%Y %H:%M:%S'
+Newest entry was: 20200320_081300 
+For CSV using filename: ../data/GermanyKreisebene_Risklayer_haupt-20200320_081300.csv
+
+...
+
+2020-04-24 22:59:00 A5:AR406 1BpYxYizcv9rx-vaO4BXwSmaoQP1kpNnK2H9HEuv3vAE Zeit ... Downloading this data:
+ https://docs.google.com/spreadsheets/d/1BpYxYizcv9rx-vaO4BXwSmaoQP1kpNnK2H9HEuv3vAE/gviz/tq?tqx=out:csv&sheet=Haupt&range=A5:AR406
+0 <class 'str'> 24/04/2020 00:00 --> zeitformat = '%d/%m/%Y %H:%M'
+Newest entry was: 20200424_190000 
+For CSV using filename: ../data/GermanyKreisebene_Risklayer_haupt-20200424_190000.csv
+
+...
+
+2020-06-24 21:41:00 A5:AU406 1Um3c1uPWrgdbrvmjUref367UnDi_Bt1_iZLehvsZd60 Zeit ... Downloading this data:
+ https://docs.google.com/spreadsheets/d/1Um3c1uPWrgdbrvmjUref367UnDi_Bt1_iZLehvsZd60/gviz/tq?tqx=out:csv&sheet=Haupt&range=A5:AU406
+0 <class 'str'> 24/06/2020 00:00 --> zeitformat = '%d/%m/%Y %H:%M'
+Newest entry was: 20200624_210000 
+For CSV using filename: ../data/GermanyKreisebene_Risklayer_haupt-20200624_210000.csv
+ALERT: file existed, overwriting it now.
+
+READY.

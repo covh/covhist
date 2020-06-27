@@ -20,4 +20,17 @@ links are in this googlesheet:
 
 If you do not want to run it, study the [logs/example.log](logs/example.log).
 
+## (4) TODO: process the CSVs
+
+As over time, some columns got renamed, the next step then is, to read in those 102 CSV files, and create a mapping table 
+
+    (date) --> (source-column --> universal column)
+    
+You can already have a look at three example CSVs in this repo: [18/03](GermanyKreisebene_Risklayer_haupt-20200318_215000.csv) and [24/04](GermanyKreisebene_Risklayer_haupt-20200424_190000.csv) and [24/06](GermanyKreisebene_Risklayer_haupt-20200624_210000.csv). I suggest you open them with [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), the import settings are "separated by: Comma".
+
+----
+
+**Improve:** Please submit [issues](https://github.com/covh/covhist/issues) and fork, and do [pull requests](https://github.com/covh/covhist/pulls). Thanks.  **Spread the word:** [tiny.cc/cov19de](http://tiny.cc/cov19de) is the main project, please explore it, read the **about.html**, etc - and tweet about [#cov19de](https://twitter.com/hashtag/cov19de?f=live). Thanks a lot.
+ 
+
 
